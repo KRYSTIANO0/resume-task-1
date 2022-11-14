@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Krystian Domżałowicz - resume</title>
+  </head>
+  <body>
+    <!-- ******************* header ******************* -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >Krystian<span class="orange-dot">.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <ul class="navbar-list navbar-nav">
+              <li class="navbar-item px-lg-2">
+                <a class="nav-link" href="#home">Home </a>
+              </li>
+
+              <li class="navbar-item px-lg-2">
+                <a class="nav-link" href="#about">About </a>
+              </li>
+              <li class="navbar-item px-lg-2">
+                <a class="nav-link" href="#me">Me </a>
+              </li>
+              <li class="navbar-item px-lg-2 dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Works
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#react">ReactJS</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#next">NextJS</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#angular">Angular</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-item px-lg-2">
+                <a class="nav-link" href="#projects-statistics">Projects </a>
+              </li>
+            </ul>
+          </div>
+          <button class="button darkGray btn-outline-dark d-none d-lg-block">
+            Let's chat
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- ******************* /header ******************* -->
+
+    <!-- ******************* main ******************* -->
+    <main id="main-content">
+      <!-- about section -->
+      <section id="about">
+        <div class="container">
+          <h1 class="header-1 py-4 py-lg-5 mt-lg-5">
+            Hi! I Am <span class="blue-card">FRONT-DEV</span><br />
+            Krystian Domżałowicz
+          </h1>
+          <p class="grap-text py-lg-5">
+            creating websites for <span class="bold">1 year</span> as a frontend
+            developer<span class="orange-dot">.</span>
+          </p>
+          <div
+            class="button-container py-4 d-flex justify-content-center justify-content-lg-start"
+          >
+            <button class="button orange">hire me</button>
+            <button class="button transparent">projects 🡭</button>
+          </div>
+          <ul class="projects-stats-list container py-4">
+            <div class="row">
+              <li class="col-sm-12 col-lg-4">
+                <h2 class="header-2">+84</h2>
+                <p class="grap-text">clients on work</p>
+              </li>
+            </div>
+            <div class="row">
+              <li class="col-sm-12 col-lg-4">
+                <h2 class="header-2">572</h2>
+                <p class="grap-text">project done</p>
+              </li>
+              <li class="col-sm-12 col-lg-4">
+                <h2 class="header-2">contact</h2>
+                <p class="grap-text">krystian.domza@gmail.com</p>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <!-- /about section -->
+
+      <!-- me section -->
+      <section id="me">
+        <div class="container">
+          <h3 class="header-3 py-5">
+            create yor site in <span class="bold">react, next </span>or
+            <span class="bold">agnular</span><span class="orange-dot">.</span>
+          </h3>
+
+          <img
+            src="./images/krystian-domzalowicz-portait.png"
+            class="img-fluid author-image"
+            alt="Krystian Domżałowicz"
+          />
+          <form class="newsletter-form p-1">
+            <input
+              type="email"
+              class="newsletter-input p-3"
+              placeholder="Subscribe my newsletter"
+            />
+            <button class="button newsletter-button darkGray">🢂</button>
+          </form>
+          <div class="me-icons">
+            <img
+              class="me-icon react-icon"
+              src="./images/React-icon.svg.png"
+              alt="react"
+            />
+            <img
+              class="me-icon next-icon"
+              src="./images/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+              alt="next"
+            />
+            <img
+              class="me-icon angular-icon"
+              src="./images/angular.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- /me section -->
+
+      <!-- project stats section -->
+      <section id="projects-statistics">
+        <div
+          class="container py-5 d-lg-grid d-flex flex-column align-items-center"
+        >
+          <h4
+            class="projects-statistics-header header-2 py-4"
+            style="color: white"
+          >
+            project statistics 2022
+          </h4>
+          <ul id="project-stats-list" class="p-0">
+            <li class="project-stats-item">
+              <h2>website design</h2>
+              <p class="bold">75</p>
+            </li>
+            <li class="project-stats-item">
+              <h2>mobile app design</h2>
+              <p class="bold">64</p>
+            </li>
+            <li class="project-stats-item">
+              <h2>brand identity</h2>
+              <p class="bold">37</p>
+            </li>
+          </ul>
+          <div class="projects-statistics-button">
+            <button class="button yellow">know more</button>
+          </div>
+        </div>
+      </section>
+      <!-- /project stats section -->
+
+      <!-- works section -->
+      <section id="works" class="pb-5">
+        <div class="container">
+          <h4 class="header-4 py-4">works<span class="orange-dot">.</span></h4>
+          <ul class="works-list d-lg-grid p-0">
+            <li class="works-item p-3 rounded-3 my-3" id="react">
+              <button
+                class="btn w-100 d-flex align-items-center justify-content-between"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <h2 class="header-2">vex-sell</h2>
+                <h2>🢃</h2>
+              </button>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body grap-text">
+                  Vex Sell is my first MERN application. The application has
+                  authentication. For its implementation I used such libraries
+                  as bcryptjs and jsonwebtoken. On the site you can add an ad
+                  with a photo. I placed the application server on Heroku. VHS.
+                </div>
+              </div>
+              <img
+                src="./images/vexsell-announcements.png"
+                class="img-fluid"
+                alt="weight-tracker-app"
+              />
+              <div class="links-container d-flex justify-content-around py-4">
+                <a
+                  class="button darkGray d-flex align-items-center gap-2 rounded-3"
+                  href="https://github.com/KRYSTIANO0/vex-sell-frontend"
+                  target="blank"
+                >
+                  <div>code</div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="button orange d-flex align-items-center gap-2 rounded-3"
+                  href="https://vexsell.netlify.app/"
+                  target="blank"
+                >
+                  live<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-browser-chrome"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="works-item p-3 rounded-3 my-3" id="next">
+              <button
+                class="btn collapsed w-100 d-flex align-items-center justify-content-between"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <h2 class="header-2">Weight Tracker</h2>
+                <h2>🢃</h2>
+              </button>
+
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body grap-text">
+                  While developing the Weight tracker, I expanded my skills to
+                  include charting support. I used ChartJS for this purpose.
+                  Users can add their current weight daily and thus monitor it
+                  easily. You can also add your goal with an exact date which
+                  will be displayed on the chart. In case of input error, we can
+                  delete any of the data entered. I used Firebase Authentication
+                  to handle the registration and Firebase Realtime Database to
+                  store the data.
+                </div>
+              </div>
+              <img
+                src="./images/weight_1_desktop.png"
+                class="img-fluid"
+                alt="weight-tracker-app"
+              />
+              <div class="links-container d-flex justify-content-around py-4">
+                <a
+                  class="button darkGray d-flex align-items-center gap-2 rounded-3"
+                  href="https://github.com/KRYSTIANO0/weight-loss-tracker"
+                  target="blank"
+                >
+                  <div>code</div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="button orange d-flex align-items-center gap-2 rounded-3"
+                  href="https://weight-loss-tracker-portfolio-website.netlify.app/"
+                  target="blank"
+                >
+                  live<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-browser-chrome"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="works-item p-3 rounded-3 my-3" id="angular">
+              <button
+                class="btn collapsed w-100 d-flex align-items-center justify-content-between"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <h2 class="header-2">sneakers</h2>
+                <h2>🢃</h2>
+              </button>
+
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body grap-text">
+                  I used NextJS to create Sneakers. In this project, I extended
+                  my knowledge of database connection. Specifically with
+                  MongoDB. The site is divided into women's and men's segments.
+                  Specific shoes can be added to favorites or to cart. There are
+                  a lot of flavors on the site so feel free!
+                </div>
+              </div>
+              <img
+                src="./images/sneakers_1_desktop.png"
+                class="img-fluid"
+                alt="weight-tracker-app"
+              />
+              <div class="links-container d-flex justify-content-around py-4">
+                <a
+                  class="button darkGray d-flex align-items-center gap-2 rounded-3"
+                  href="https://github.com/KRYSTIANO0/sneakers"
+                  target="blank"
+                >
+                  <div>code</div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="button orange d-flex align-items-center gap-2 rounded-3"
+                  href="https://sneakers-next.netlify.app/"
+                  target="blank"
+                >
+                  live<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-browser-chrome"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- works section -->
+    </main>
+    <!-- ******************* /main ******************* -->
+
+    <!-- ******************* footer ******************* -->
+    <footer id="footer" class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="socials col-6">
+            <h5 class="header-5">follow me</h5>
+            <a href="https://www.facebook.com/" target="blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#4267B2"
+                class="bi bi-facebook px-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/" target="blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#C13584"
+                class="bi bi-instagram px-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/" target="blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#1DA1F2"
+                class="bi bi-twitter px-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="col-6">
+            <h5 class="header-5">contact</h5>
+            <h6 class="footer-grap-text" style="color: white">
+              krystian.domza@gmail.com
+            </h6>
+          </div>
+        </div>
+        <div class="row text-center">
+          <h6 class="col-12 py-2" style="color: #a1a1a1">
+            Copyright @2020 Krystian Domżałowicz
+          </h6>
+        </div>
+      </div>
+    </footer>
+    <!-- ******************* /footer ******************* -->
+
+    <!-- ******************* scripts ******************* -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ******************* /scripts ******************* -->
+  </body>
+</html>
