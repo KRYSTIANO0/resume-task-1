@@ -255,9 +255,27 @@ html {
   left: 60%;
   top: 38%;
 }
+
 /* ------------> end <------------ */
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 768px) {
+  /* ------------> text styling <------------ */
+  .header-1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .projects-stats-list {
+    display: flex;
+    justify-content: center;
+  }
+  /*  */
+}
+@media screen and (min-width: 992px) {
+  .projects-stats-list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
   #main-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -290,7 +308,9 @@ html {
     margin-right: auto;
     width: 48rem;
   }
-
+  .projects-stats-list {
+    width: 100%;
+  }
   /* ui elements */
   .blue-card {
     font-size: 3rem;
